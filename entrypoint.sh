@@ -1,6 +1,3 @@
-# make the file executable
-chmod +x entrypoint.sh
-
 #!/bin/sh -l
 
 echo "Hello $1"   # uses the who-to-greet input variable to print "Hello [who-to-greet]" in the log file
